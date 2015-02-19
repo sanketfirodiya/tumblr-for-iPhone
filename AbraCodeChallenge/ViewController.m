@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TMAPIClient.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    [[TMAPIClient sharedInstance] posts:@"abratest" type:nil parameters:nil callback:^(id result, NSError *error) {
+        NSLog(@"Result returned from Tumblr API is: %@", result);
+    }];
+    
+    
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
