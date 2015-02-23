@@ -20,8 +20,8 @@
 
     // KS - Test credentials, required to use the TMAPIClient.
     
-    [TMAPIClient sharedInstance].OAuthConsumerKey = @"ADISJdadsoj2dj38dj29dj38jd9238jdk92djasdjASDaoijsd";
-    [TMAPIClient sharedInstance].OAuthConsumerSecret = @"MGI39kdasdoka3240989ASFjoiajsfomdasd39129ASDAPDOJa";
+    [TMAPIClient sharedInstance].OAuthConsumerKey = @"QopayUbmpJp41MuEQugMAu5twGYCp4yFRAAWCUVO0PYtH1Q8nq";
+    [TMAPIClient sharedInstance].OAuthConsumerSecret = @"PV5q7DcX3JWeU3i4TvlfOwttQRgJlXj4QdTi8hqQtFuPf9X1oR";
     
     return YES;
 }
