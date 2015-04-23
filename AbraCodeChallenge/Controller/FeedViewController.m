@@ -20,6 +20,8 @@
 
 static NSString *kBlogName = @"abratest";
 static NSString *kCellIdentifier = @"PostCell";
+static NSString *kHtmlPre = @"<html><head><title></title></head><body style=\"background:transparent;\">";
+static NSString *kHtmlPost = @"</body></html>";
 
 @implementation FeedViewController
 
@@ -75,8 +77,18 @@ static NSString *kCellIdentifier = @"PostCell";
         }
     }];
     
+    UIWebView *webView = (UIWebView *)[cell viewWithTag:2];
+    NSMutableString *html = [NSMutableString stringWithString:kHtmlPre];
+    if (post.caption && post.caption.length > 0) {
+        [html appendString:post.caption];
+    }
+    [html appendString:kHtmlPost];
+    [webView loadHTMLString:[html description] baseURL:nil];
+    
+    //[self showCaptionForCellAtIndexPath:indexPath];
+
     UILabel *dateLabel = (UILabel *)[cell viewWithTag:3];
-    dateLabel.text = post.caption;
+    //dateLabel.text = post.timeStamp
     
     return cell;
 }
@@ -87,6 +99,24 @@ static NSString *kCellIdentifier = @"PostCell";
 
 - (NSInteger)tableView:(UITableView*)tableView numberOfRowsInSection:(NSInteger)section {
     return [self.posts count];
+}
+
+#pragma mark - WebView helper method
+
+- (void)showCaptionForCellAtIndexPath:(NSIndexPath *)indexPath {
+    
+    Post *post = [self.posts objectAtIndex:indexPath.row];
+    
+    NSMutableString *html = [NSMutableString stringWithString:kHtmlPre];
+    if (post.caption && post.caption.length > 0) {
+        [html appendString:post.caption];
+    }
+    [html appendString:kHtmlPost];
+    
+    UITableViewCell *cell = [self.iboTableView cellForRowAtIndexPath:indexPath];
+    UIWebView *webView = (UIWebView *)[cell viewWithTag:2];
+    
+    [webView loadHTMLString:[html description] baseURL:nil];
 }
 
 @end
