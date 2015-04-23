@@ -7,7 +7,18 @@
 //
 
 #import "Post.h"
+#import "GlobalConstants.h"
 
 @implementation Post
+
+- (instancetype)initWithDictionary:(NSDictionary*)dictionary {
+    if (self = [super init]) {
+        self.caption = dictionary[kCaption];
+        self.timeStamp = dictionary[kTimestamp];
+        self.tags = dictionary[kTags];
+        self.photo = [[Photo alloc] initWithDictionary:[dictionary[kPhotos] objectAtIndex:0]];
+    }
+    return self;
+}
 
 @end

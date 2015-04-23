@@ -14,8 +14,10 @@
 		68B11A701A967CB40081E906 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68B11A6E1A967CB40081E906 /* LaunchScreen.xib */; };
 		68B11A7C1A967CB50081E906 /* AbraCodeChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B11A7B1A967CB50081E906 /* AbraCodeChallengeTests.m */; };
 		7804F4986C52729CAA9C246D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DC79FC5E618B251442C16A /* libPods.a */; };
-		FBC3FAEB1AE88E4100DED4D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC3FAE91AE88E4100DED4D5 /* ViewController.m */; };
+		FBC3FAEB1AE88E4100DED4D5 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC3FAE91AE88E4100DED4D5 /* FeedViewController.m */; };
 		FBC3FAEE1AE88EC100DED4D5 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC3FAED1AE88EC100DED4D5 /* Post.m */; };
+		FBC3FAF41AE8A06F00DED4D5 /* PostsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC3FAF31AE8A06F00DED4D5 /* PostsHelper.m */; };
+		FBC3FAF71AE8A4D000DED4D5 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC3FAF61AE8A4D000DED4D5 /* Photo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +45,15 @@
 		68B11A751A967CB50081E906 /* AbraCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbraCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B11A7A1A967CB50081E906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68B11A7B1A967CB50081E906 /* AbraCodeChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbraCodeChallengeTests.m; sourceTree = "<group>"; };
-		FBC3FAE81AE88E4100DED4D5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FBC3FAE91AE88E4100DED4D5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBC3FAE81AE88E4100DED4D5 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		FBC3FAE91AE88E4100DED4D5 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
 		FBC3FAEC1AE88EC100DED4D5 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
 		FBC3FAED1AE88EC100DED4D5 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		FBC3FAF01AE89F4A00DED4D5 /* GlobalConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalConstants.h; sourceTree = "<group>"; };
+		FBC3FAF21AE8A06F00DED4D5 /* PostsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsHelper.h; sourceTree = "<group>"; };
+		FBC3FAF31AE8A06F00DED4D5 /* PostsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsHelper.m; sourceTree = "<group>"; };
+		FBC3FAF51AE8A4D000DED4D5 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		FBC3FAF61AE8A4D000DED4D5 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +106,8 @@
 		68B11A5E1A967CB40081E906 /* AbraCodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				FBC3FAF11AE8A06000DED4D5 /* Helper */,
+				FBC3FAEF1AE89F3100DED4D5 /* Utilities */,
 				FBC3FAE71AE88E4100DED4D5 /* Controller */,
 				FBC3FAEA1AE88E4100DED4D5 /* Model */,
 				68B11A631A967CB40081E906 /* AppDelegate.h */,
@@ -149,8 +158,8 @@
 		FBC3FAE71AE88E4100DED4D5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FBC3FAE81AE88E4100DED4D5 /* ViewController.h */,
-				FBC3FAE91AE88E4100DED4D5 /* ViewController.m */,
+				FBC3FAE81AE88E4100DED4D5 /* FeedViewController.h */,
+				FBC3FAE91AE88E4100DED4D5 /* FeedViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -160,8 +169,27 @@
 			children = (
 				FBC3FAEC1AE88EC100DED4D5 /* Post.h */,
 				FBC3FAED1AE88EC100DED4D5 /* Post.m */,
+				FBC3FAF51AE8A4D000DED4D5 /* Photo.h */,
+				FBC3FAF61AE8A4D000DED4D5 /* Photo.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FBC3FAEF1AE89F3100DED4D5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FBC3FAF01AE89F4A00DED4D5 /* GlobalConstants.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FBC3FAF11AE8A06000DED4D5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FBC3FAF21AE8A06F00DED4D5 /* PostsHelper.h */,
+				FBC3FAF31AE8A06F00DED4D5 /* PostsHelper.m */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,8 +327,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBC3FAF71AE8A4D000DED4D5 /* Photo.m in Sources */,
+				FBC3FAF41AE8A06F00DED4D5 /* PostsHelper.m in Sources */,
 				68B11A651A967CB40081E906 /* AppDelegate.m in Sources */,
-				FBC3FAEB1AE88E4100DED4D5 /* ViewController.m in Sources */,
+				FBC3FAEB1AE88E4100DED4D5 /* FeedViewController.m in Sources */,
 				68B11A621A967CB40081E906 /* main.m in Sources */,
 				FBC3FAEE1AE88EC100DED4D5 /* Post.m in Sources */,
 			);
