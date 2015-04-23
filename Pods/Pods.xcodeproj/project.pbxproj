@@ -1,2879 +1,937 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0044C96E680DA4022F5C8845</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TMOAuth.h</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Authentication/TMOAuth.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>015CA32AF167592456362713</key>
-		<dict>
-			<key>fileRef</key>
-			<string>25045A35BDC44BD051DF9234</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>02A68A337191CC0E83CC7B79</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C86A0812F5B938F788856498</string>
-				<string>E11040643F7B0F51FC35410F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>03C6990C210376C28662B234</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>UIActivityTumblr~ipad@2x.png</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Activity/UIActivityTumblr~ipad@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>05EC6416EF8A489480F7CC34</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8923B905FFCF17A97D1C66EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>0A50C389CA63D4012B7B3164</key>
-		<dict>
-			<key>fileRef</key>
-			<string>89C505A7B6D9E02A6EF18886</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0A6BC13F8D2C69FBCC76C066</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F546EDA962BFB61E29EF857D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0AA050B409BA20E776DFBBFB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-JXHTTP-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0ABF3F84988A0F082FA86929</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1A0A17D49119E68143C4EB80</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0CE250DA1300ECB54B1D287E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BB97FE6901BB515047207D7A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0D329BF29F25DC05526C79F2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>42EE31396DF4B7E316A46D50</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10FBA1DEEBBABC74FFB5BA0D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>77162F86A744CAAC23250181</string>
-				<string>78DD3EDC097ADCD96292E1B6</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>165108C741816D9C9C777C10</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9305F1BDCAA879DBDE87F641</string>
-				<string>CF9F587EE1AE3F0851F5A7FC</string>
-				<string>EC78D0EBD7F5D06A197BF2FD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1A0A17D49119E68143C4EB80</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPFileBody.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPFileBody.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1A498044848F5E5D0BDB182D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DF6AAAF45146A6A15BDA27D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>1C9AD0533D95D53380954298</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPOperationQueueDelegate.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPOperationQueueDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1FAD546A738696D3E97F90C2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6F844DC5872514A1AD7A14AB</string>
-				<string>80D0A5E1CB7688B32511C031</string>
-				<string>A0C48F4949B7EF89D8755A39</string>
-				<string>0AA050B409BA20E776DFBBFB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-JXHTTP</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>215813EE61F2B2069C89AB21</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-JXHTTP</string>
-			<key>target</key>
-			<string>6030B98049002892D50C7BBF</string>
-			<key>targetProxy</key>
-			<string>D0EED74DB1FD75D823CF85F2</string>
-		</dict>
-		<key>25045A35BDC44BD051DF9234</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TMSDKUserAgent.m</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Core/TMSDKUserAgent.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>25EAAB55968AC420EA555644</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F021D21C2D71D9108B490B49</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>260FA3155EFB890E3CD1CD10</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXHTTPDataBody.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPDataBody.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2650FBCE619977CBA6305F12</key>
-		<dict>
-			<key>fileRef</key>
-			<string>78768FACC4BB6D10843F429B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>27861129355472DFEE11020F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPRequestBody.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPRequestBody.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2913E65F5DDBBB55314DD0B1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29640518907E499A126132F5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D8A3988BF1740312C08CD011</string>
-				<string>51E414AC3EFEF60AD82F8D5F</string>
-				<string>D5493D0331A3DE1F902F28CA</string>
-				<string>FBE9F184D4089E583C5A479C</string>
-				<string>03C6990C210376C28662B234</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A4D3742F0E2CE4E9B50E684</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F5DA8FBEF4443D437B21691</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2B6332FDF6E678109C05A67B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>95CBB9AFC7667ED8E5209F61</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>2CDD93071A14A55D968CBBD8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTP.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTP.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2DAF3A84FE67168B234CD9FF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D66C251BE54260514CDFBB72</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>2F07DCBB4CB557A3A0A71E63</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXHTTPOperation.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F5DA8FBEF4443D437B21691</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPJSONBody.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPJSONBody.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F673958EBADB4204535D7FB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B60E3B334B9B2F1C8B8D9AE1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>3171CDFCE360A7B18C1971E1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TMPodspec.m</string>
-			<key>path</key>
-			<string>Pod/Classes/TMPodspec.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>317F7037A7D89128BC441192</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C01685CD656A227B6B031F8F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>34E42D2813501906AE807ABD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BA12A65D3C50B1FC41E3ED6C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-TMTumblrSDK/Pods-TMTumblrSDK-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3585FDBE57C8F5B49365BE9E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TMTumblrAppClient.h</string>
-			<key>path</key>
-			<string>TMTumblrSDK/AppClient/TMTumblrAppClient.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>35DD47D750D1A51ABE5D3F12</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DE3EC9F0467350CC73FC67D1</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>372666FB408CDAF5EF79B0BC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>42EE31396DF4B7E316A46D50</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3A759886405E9E197C148F40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F7D28D9FF95CE5F3AC09B955</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3CFE3FD42326C4806396B39A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>80DBD59636EB27B3789B5710</string>
-				<string>3A759886405E9E197C148F40</string>
-				<string>0ABF3F84988A0F082FA86929</string>
-				<string>0A50C389CA63D4012B7B3164</string>
-				<string>2A4D3742F0E2CE4E9B50E684</string>
-				<string>89FC506F5C4B1629B1A06539</string>
-				<string>0CE250DA1300ECB54B1D287E</string>
-				<string>F5A153440B48E8A0781282B6</string>
-				<string>0A6BC13F8D2C69FBCC76C066</string>
-				<string>76B42FDA203729F59AB950DB</string>
-				<string>5BE4F93AA520252776510268</string>
-				<string>7E66730710425B1DEE95B9CA</string>
-				<string>A37375B27C71F6377FECACFF</string>
-				<string>51CDC4AA70D221C33851D3EE</string>
-				<string>D06EF07E660DB8C9897667E0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3E0CE1105122444516A4A042</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TMTumblrAuthenticator.h</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Authentication/TMTumblrAuthenticator.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3FB77089ADF697B5A2A640FF</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>446458956BA8B3EECC3B042B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C80C0F6506CE345BE7F800A1</string>
-				<string>F5C92021A7230000BBBDB013</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>D582C8862C90A8CD01006948</string>
-				<string>DE5FF64264B54CD4BD6311DD</string>
-				<string>AC72DD8FA1832E3213EA0FC2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>C3C17813575382115150F916</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>42EE31396DF4B7E316A46D50</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>446458956BA8B3EECC3B042B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>25EAAB55968AC420EA555644</string>
-				<string>35DD47D750D1A51ABE5D3F12</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>44BEEED15BC89572429024C2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>42EE31396DF4B7E316A46D50</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>45A4AD83FF1EF00CDC890784</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F07DCBB4CB557A3A0A71E63</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>46F1374B7208D00789F1E251</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E0CE1105122444516A4A042</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>48A5A35448D2CDCA7B05E1D4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EC8639CF339F2428C81D18F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>48E590FF84CE8BFD94F25BC4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXHTTPMultipartBody.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPMultipartBody.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4A905F08E91A7FF7E7032841</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D568E22BF1E3F6DF4A2ADB0</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>F886F54EA9220F153F49257B</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>50BAD607C979E01DB943B69E</string>
-			<key>remoteInfo</key>
-			<string>Pods-Spectacles</string>
-		</dict>
-		<key>50BAD607C979E01DB943B69E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>BB456C5065C57FD083E7D384</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D51205B88F2B6F46B91BA7D9</string>
-				<string>774601F7E40A97F6837F7AEB</string>
-				<string>741BF338E8C76C8775940984</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Spectacles</string>
-			<key>productName</key>
-			<string>Pods-Spectacles</string>
-			<key>productReference</key>
-			<string>A8B3CDF750BE9F33CC51B884</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>51CDC4AA70D221C33851D3EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7B747CF2C30A24996C813DD6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>51E414AC3EFEF60AD82F8D5F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>UIActivityTumblr@2x.png</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Activity/UIActivityTumblr@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5371338488C3F84626FF4EAE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TMTumblrAuthenticator.m</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Authentication/TMTumblrAuthenticator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5655B3DB7697EBEED3F76E25</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0D329BF29F25DC05526C79F2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>58A82DB760F12162407411CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>260FA3155EFB890E3CD1CD10</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>5AA2667F0D884FD501E19BC2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPOperationQueue.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPOperationQueue.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5B85D04B99440A8F8E1C27E0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Spectacles-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5BE4F93AA520252776510268</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1C9AD0533D95D53380954298</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5D1CB9DFFE5553BA17427C8C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9B3BE1FF3C934FD93E960DC3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5DAC3D26D40CA235BA06B718</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TMTumblrAppClient.m</string>
-			<key>path</key>
-			<string>TMTumblrSDK/AppClient/TMTumblrAppClient.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5F5237A5CE458507761381C4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7034E6056823A27CDAA81289</string>
-				<string>65D2794956CA8E1A7F7CF888</string>
-				<string>2DAF3A84FE67168B234CD9FF</string>
-				<string>05EC6416EF8A489480F7CC34</string>
-				<string>015CA32AF167592456362713</string>
-				<string>6B3B2A486F11DFCDB5744400</string>
-				<string>E26BC9EC8F3CF2C5B1E6005B</string>
-				<string>D5C5FC781DF841A176C790CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5FC4DE07E2D18F8BEAF61AC6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F1C68211279E2F8E84E702BD</string>
-				<string>5655B3DB7697EBEED3F76E25</string>
-				<string>165108C741816D9C9C777C10</string>
-				<string>84C50C18A2F8AD01BFEAEC12</string>
-				<string>798E73B7DCE0E1DB999FC3B7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6030B98049002892D50C7BBF</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>02A68A337191CC0E83CC7B79</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C86AEBC20F7EB97AAC6C615C</string>
-				<string>5D1CB9DFFE5553BA17427C8C</string>
-				<string>3CFE3FD42326C4806396B39A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-JXHTTP</string>
-			<key>productName</key>
-			<string>Pods-JXHTTP</string>
-			<key>productReference</key>
-			<string>E7DF316CCB36929138CC7CE3</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>636B22E0654BF492017DE514</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A0C48F4949B7EF89D8755A39</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>63CEE5126D1695A9C1FFDBE9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7C673473D78B180BA359B8B7</string>
-				<string>BA12A65D3C50B1FC41E3ED6C</string>
-				<string>FEECA6D846442D972CAFC2E8</string>
-				<string>94AF5C0468BC6575A7D2B4D0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-TMTumblrSDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>65D2794956CA8E1A7F7CF888</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AD17A971350A3DECEB85AF2B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>686414C3D15CF9B2756F009B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F26D5C6802828B204DA25334</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>6B0B7A6451B5C357E5C4169D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3585FDBE57C8F5B49365BE9E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6B3B2A486F11DFCDB5744400</key>
-		<dict>
-			<key>fileRef</key>
-			<string>90203436766F3229D310802D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>6C815D2A91F058E3B9B5B3C0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>783076D7748090C52F6C1671</string>
-				<string>AD17A971350A3DECEB85AF2B</string>
-				<string>FE0375AA88EFF125F64793CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>APIClient</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E763CC9FC15F9E856A5FA64</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C01685CD656A227B6B031F8F</string>
-				<string>90203436766F3229D310802D</string>
-				<string>29640518907E499A126132F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Activity</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6F844DC5872514A1AD7A14AB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-JXHTTP.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7034E6056823A27CDAA81289</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FEECA6D846442D972CAFC2E8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>70CD40F17D3F6683F279ADC3</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Spectacles</string>
-			<key>target</key>
-			<string>50BAD607C979E01DB943B69E</string>
-			<key>targetProxy</key>
-			<string>75195CF1824F5B6C555BE031</string>
-		</dict>
-		<key>726EE182637C0017D931E937</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPMultipartBody.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPMultipartBody.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>741BF338E8C76C8775940984</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2650FBCE619977CBA6305F12</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>75195CF1824F5B6C555BE031</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>F886F54EA9220F153F49257B</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>50BAD607C979E01DB943B69E</string>
-			<key>remoteInfo</key>
-			<string>Pods-Spectacles</string>
-		</dict>
-		<key>76B42FDA203729F59AB950DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5AA2667F0D884FD501E19BC2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>77162F86A744CAAC23250181</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>774601F7E40A97F6837F7AEB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>44BEEED15BC89572429024C2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>77B22374401B9C41C7325827</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3171CDFCE360A7B18C1971E1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>783076D7748090C52F6C1671</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TMAPIClient.h</string>
-			<key>path</key>
-			<string>TMTumblrSDK/APIClient/TMAPIClient.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>78768FACC4BB6D10843F429B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TMPodspec.h</string>
-			<key>path</key>
-			<string>Pod/Classes/TMPodspec.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>78DD3EDC097ADCD96292E1B6</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>798E73B7DCE0E1DB999FC3B7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D4937E52600510CE1C249367</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79D69D4662CAB197D853B519</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXOperation.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7B747CF2C30A24996C813DD6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXURLConnectionOperation.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXURLConnectionOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7C673473D78B180BA359B8B7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-TMTumblrSDK.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7E66730710425B1DEE95B9CA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>27861129355472DFEE11020F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>80D0A5E1CB7688B32511C031</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-JXHTTP-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80DBD59636EB27B3789B5710</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2CDD93071A14A55D968CBBD8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84C50C18A2F8AD01BFEAEC12</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C3C17813575382115150F916</string>
-				<string>E7DF316CCB36929138CC7CE3</string>
-				<string>A8B3CDF750BE9F33CC51B884</string>
-				<string>D24A4A7C9E9962B1964F1DB3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>868D839D44F69AD3EE2DE764</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B14D8E07D2BE33A3934FB59A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>8923B905FFCF17A97D1C66EE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TMSDKFunctions.m</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Core/TMSDKFunctions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>89C505A7B6D9E02A6EF18886</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPFormEncodedBody.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPFormEncodedBody.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>89FC506F5C4B1629B1A06539</key>
-		<dict>
-			<key>fileRef</key>
-			<string>726EE182637C0017D931E937</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>90203436766F3229D310802D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TMTumblrActivity.m</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Activity/TMTumblrActivity.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>90A73FBAB7564F95E62FD05F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXURLEncoding.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXURLEncoding.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9305F1BDCAA879DBDE87F641</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2CDD93071A14A55D968CBBD8</string>
-				<string>F7D28D9FF95CE5F3AC09B955</string>
-				<string>260FA3155EFB890E3CD1CD10</string>
-				<string>1A0A17D49119E68143C4EB80</string>
-				<string>D10896CA1A2DE9E8720FE507</string>
-				<string>89C505A7B6D9E02A6EF18886</string>
-				<string>F26D5C6802828B204DA25334</string>
-				<string>2F5DA8FBEF4443D437B21691</string>
-				<string>DF6AAAF45146A6A15BDA27D4</string>
-				<string>726EE182637C0017D931E937</string>
-				<string>48E590FF84CE8BFD94F25BC4</string>
-				<string>B84734C746F5BC63618F22AB</string>
-				<string>2F07DCBB4CB557A3A0A71E63</string>
-				<string>BB97FE6901BB515047207D7A</string>
-				<string>CB0BA8EDA1F549537BB89B49</string>
-				<string>F546EDA962BFB61E29EF857D</string>
-				<string>5AA2667F0D884FD501E19BC2</string>
-				<string>B14D8E07D2BE33A3934FB59A</string>
-				<string>1C9AD0533D95D53380954298</string>
-				<string>27861129355472DFEE11020F</string>
-				<string>79D69D4662CAB197D853B519</string>
-				<string>EAB56F9B664C24DC4451A51C</string>
-				<string>7B747CF2C30A24996C813DD6</string>
-				<string>95CBB9AFC7667ED8E5209F61</string>
-				<string>90A73FBAB7564F95E62FD05F</string>
-				<string>B60E3B334B9B2F1C8B8D9AE1</string>
-				<string>1FAD546A738696D3E97F90C2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>JXHTTP</string>
-			<key>path</key>
-			<string>JXHTTP</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>94AF5C0468BC6575A7D2B4D0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-TMTumblrSDK-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>95130A774202ABF424701D2A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>34E42D2813501906AE807ABD</string>
-				<string>C7A199252395F5E31A6CC71F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>954B12EEFC5FC8A99B7AA264</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D3B5B179FBC033DC01E0CC5E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>95CBB9AFC7667ED8E5209F61</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXURLConnectionOperation.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXURLConnectionOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9636C9D11769EE029BE45F87</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>F886F54EA9220F153F49257B</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>6030B98049002892D50C7BBF</string>
-			<key>remoteInfo</key>
-			<string>Pods-JXHTTP</string>
-		</dict>
-		<key>996867100F17FBE07A30FE7E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EAB56F9B664C24DC4451A51C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>9B3BE1FF3C934FD93E960DC3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>42EE31396DF4B7E316A46D50</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9C3E91C7C85DB51393A060B5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AD35449D7840B448834501DA</string>
-				<string>A826641728165299B03D63F6</string>
-				<string>A565104B05318C2B128EE442</string>
-				<string>5B85D04B99440A8F8E1C27E0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-Spectacles</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A0C48F4949B7EF89D8755A39</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-JXHTTP-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A37375B27C71F6377FECACFF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79D69D4662CAB197D853B519</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A565104B05318C2B128EE442</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Spectacles-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A826641728165299B03D63F6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Spectacles-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A8B3CDF750BE9F33CC51B884</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Spectacles.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AC72DD8FA1832E3213EA0FC2</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-TMTumblrSDK</string>
-			<key>target</key>
-			<string>D8D8EE43CAEBDD13DEECFB36</string>
-			<key>targetProxy</key>
-			<string>C5EA0DF9AE49557B55526B93</string>
-		</dict>
-		<key>AD17A971350A3DECEB85AF2B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TMAPIClient.m</string>
-			<key>path</key>
-			<string>TMTumblrSDK/APIClient/TMAPIClient.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AD35449D7840B448834501DA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Spectacles.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFE4DF953192A4998DCDCF02</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BD3A70812C6BAA36FCE4B462</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B14D8E07D2BE33A3934FB59A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXHTTPOperationQueue.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPOperationQueue.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B5C209DC6B4E171674BE9B6A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B60E3B334B9B2F1C8B8D9AE1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXURLEncoding.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXURLEncoding.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B687694C52631AAA3FC87594</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B80EEEFA3FA1E943A63372EC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D3B5B179FBC033DC01E0CC5E</string>
-				<string>8923B905FFCF17A97D1C66EE</string>
-				<string>BD3A70812C6BAA36FCE4B462</string>
-				<string>25045A35BDC44BD051DF9234</string>
-				<string>48A5A35448D2CDCA7B05E1D4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Core</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B84734C746F5BC63618F22AB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPOperation.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA12A65D3C50B1FC41E3ED6C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-TMTumblrSDK-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BB456C5065C57FD083E7D384</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C8D1C100B7228650FE4DD6FA</string>
-				<string>D93299245CE31F8BBDC1B15F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BB97FE6901BB515047207D7A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPOperation+Convenience.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPOperation+Convenience.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BD3A70812C6BAA36FCE4B462</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TMSDKUserAgent.h</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Core/TMSDKUserAgent.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C01685CD656A227B6B031F8F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TMTumblrActivity.h</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Activity/TMTumblrActivity.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C3C17813575382115150F916</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C5EA0DF9AE49557B55526B93</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>F886F54EA9220F153F49257B</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D8D8EE43CAEBDD13DEECFB36</string>
-			<key>remoteInfo</key>
-			<string>Pods-TMTumblrSDK</string>
-		</dict>
-		<key>C7A199252395F5E31A6CC71F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BA12A65D3C50B1FC41E3ED6C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-TMTumblrSDK/Pods-TMTumblrSDK-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C80C0F6506CE345BE7F800A1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EBE2C00DCB7E688CD8B16DFB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C86A0812F5B938F788856498</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>80D0A5E1CB7688B32511C031</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-JXHTTP/Pods-JXHTTP-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C86AEBC20F7EB97AAC6C615C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>58A82DB760F12162407411CD</string>
-				<string>FDF9AA54DA746C23E63AC4C5</string>
-				<string>686414C3D15CF9B2756F009B</string>
-				<string>1A498044848F5E5D0BDB182D</string>
-				<string>DD621658E1C43DBA44202ADF</string>
-				<string>DC9D0EA3F386089AB9D2ED79</string>
-				<string>45A4AD83FF1EF00CDC890784</string>
-				<string>868D839D44F69AD3EE2DE764</string>
-				<string>996867100F17FBE07A30FE7E</string>
-				<string>2B6332FDF6E678109C05A67B</string>
-				<string>2F673958EBADB4204535D7FB</string>
-				<string>636B22E0654BF492017DE514</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C8D1C100B7228650FE4DD6FA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A826641728165299B03D63F6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Spectacles/Pods-Spectacles-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>CA0A7B42C4D1C4FF1B1B5809</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A565104B05318C2B128EE442</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CB0BA8EDA1F549537BB89B49</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXHTTPOperation+Convenience.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPOperation+Convenience.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CC4717C80BCE6DB7298B6FFB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E833768BF889FB22F641EC01</string>
-				<string>F1501DF85EC9B3E2D46F6FD0</string>
-				<string>954B12EEFC5FC8A99B7AA264</string>
-				<string>AFE4DF953192A4998DCDCF02</string>
-				<string>317F7037A7D89128BC441192</string>
-				<string>6B0B7A6451B5C357E5C4169D</string>
-				<string>46F1374B7208D00789F1E251</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CF9F587EE1AE3F0851F5A7FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>78768FACC4BB6D10843F429B</string>
-				<string>3171CDFCE360A7B18C1971E1</string>
-				<string>9C3E91C7C85DB51393A060B5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Spectacles</string>
-			<key>path</key>
-			<string>Spectacles</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D06EF07E660DB8C9897667E0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>90A73FBAB7564F95E62FD05F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D0EED74DB1FD75D823CF85F2</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>F886F54EA9220F153F49257B</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>6030B98049002892D50C7BBF</string>
-			<key>remoteInfo</key>
-			<string>Pods-JXHTTP</string>
-		</dict>
-		<key>D10896CA1A2DE9E8720FE507</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXHTTPFileBody.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPFileBody.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D24A4A7C9E9962B1964F1DB3</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-TMTumblrSDK.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D3B5B179FBC033DC01E0CC5E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TMSDKFunctions.h</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Core/TMSDKFunctions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D4937E52600510CE1C249367</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2913E65F5DDBBB55314DD0B1</string>
-				<string>4A905F08E91A7FF7E7032841</string>
-				<string>B687694C52631AAA3FC87594</string>
-				<string>DE2D99B1F33921F0397521C9</string>
-				<string>B5C209DC6B4E171674BE9B6A</string>
-				<string>F021D21C2D71D9108B490B49</string>
-				<string>DE3EC9F0467350CC73FC67D1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>path</key>
-			<string>Target Support Files/Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D51205B88F2B6F46B91BA7D9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CA0A7B42C4D1C4FF1B1B5809</string>
-				<string>77B22374401B9C41C7325827</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D5493D0331A3DE1F902F28CA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>UIActivityTumblr@2x~ipad.png</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Activity/UIActivityTumblr@2x~ipad.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D582C8862C90A8CD01006948</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-JXHTTP</string>
-			<key>target</key>
-			<string>6030B98049002892D50C7BBF</string>
-			<key>targetProxy</key>
-			<string>9636C9D11769EE029BE45F87</string>
-		</dict>
-		<key>D5C5FC781DF841A176C790CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5371338488C3F84626FF4EAE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>D66C251BE54260514CDFBB72</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TMOAuth.m</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Authentication/TMOAuth.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D8A3988BF1740312C08CD011</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>UIActivityTumblr.png</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Activity/UIActivityTumblr.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D8D8EE43CAEBDD13DEECFB36</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>95130A774202ABF424701D2A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>5F5237A5CE458507761381C4</string>
-				<string>E8DAE28C703C13CF8E039625</string>
-				<string>CC4717C80BCE6DB7298B6FFB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>215813EE61F2B2069C89AB21</string>
-				<string>70CD40F17D3F6683F279ADC3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-TMTumblrSDK</string>
-			<key>productName</key>
-			<string>Pods-TMTumblrSDK</string>
-			<key>productReference</key>
-			<string>D24A4A7C9E9962B1964F1DB3</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>D93299245CE31F8BBDC1B15F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A826641728165299B03D63F6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Spectacles/Pods-Spectacles-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DC9D0EA3F386089AB9D2ED79</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CB0BA8EDA1F549537BB89B49</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>DD621658E1C43DBA44202ADF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>48E590FF84CE8BFD94F25BC4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>DE2D99B1F33921F0397521C9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE3EC9F0467350CC73FC67D1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE5FF64264B54CD4BD6311DD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Spectacles</string>
-			<key>target</key>
-			<string>50BAD607C979E01DB943B69E</string>
-			<key>targetProxy</key>
-			<string>4D568E22BF1E3F6DF4A2ADB0</string>
-		</dict>
-		<key>DF6AAAF45146A6A15BDA27D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXHTTPJSONBody.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPJSONBody.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E11040643F7B0F51FC35410F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>80D0A5E1CB7688B32511C031</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-JXHTTP/Pods-JXHTTP-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E26BC9EC8F3CF2C5B1E6005B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5DAC3D26D40CA235BA06B718</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>E7DF316CCB36929138CC7CE3</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-JXHTTP.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E833768BF889FB22F641EC01</key>
-		<dict>
-			<key>fileRef</key>
-			<string>783076D7748090C52F6C1671</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E8DAE28C703C13CF8E039625</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FBA6D7C21A5E681970FD5BC3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EAB56F9B664C24DC4451A51C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXOperation.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBE2C00DCB7E688CD8B16DFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B687694C52631AAA3FC87594</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EC78D0EBD7F5D06A197BF2FD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6C815D2A91F058E3B9B5B3C0</string>
-				<string>6E763CC9FC15F9E856A5FA64</string>
-				<string>F53C00983777515476B2365F</string>
-				<string>B80EEEFA3FA1E943A63372EC</string>
-				<string>63CEE5126D1695A9C1FFDBE9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TMTumblrSDK</string>
-			<key>path</key>
-			<string>TMTumblrSDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EC8639CF339F2428C81D18F4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TMTumblrSDK.podspec.json</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F021D21C2D71D9108B490B49</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F1501DF85EC9B3E2D46F6FD0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0044C96E680DA4022F5C8845</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F1C68211279E2F8E84E702BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>F26D5C6802828B204DA25334</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>JXHTTPFormEncodedBody.m</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPFormEncodedBody.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F53C00983777515476B2365F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3585FDBE57C8F5B49365BE9E</string>
-				<string>5DAC3D26D40CA235BA06B718</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AppClient</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F546EDA962BFB61E29EF857D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPOperationDelegate.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPOperationDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5A153440B48E8A0781282B6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B84734C746F5BC63618F22AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F5C92021A7230000BBBDB013</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>372666FB408CDAF5EF79B0BC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F7D28D9FF95CE5F3AC09B955</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JXHTTPDataBody.h</string>
-			<key>path</key>
-			<string>JXHTTP/JXHTTPDataBody.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F886F54EA9220F153F49257B</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>10FBA1DEEBBABC74FFB5BA0D</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>5FC4DE07E2D18F8BEAF61AC6</string>
-			<key>productRefGroup</key>
-			<string>84C50C18A2F8AD01BFEAEC12</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>3FB77089ADF697B5A2A640FF</string>
-				<string>6030B98049002892D50C7BBF</string>
-				<string>50BAD607C979E01DB943B69E</string>
-				<string>D8D8EE43CAEBDD13DEECFB36</string>
-			</array>
-		</dict>
-		<key>FBA6D7C21A5E681970FD5BC3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>42EE31396DF4B7E316A46D50</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FBE9F184D4089E583C5A479C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>UIActivityTumblr~ipad.png</string>
-			<key>path</key>
-			<string>TMTumblrSDK/Activity/UIActivityTumblr~ipad.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDF9AA54DA746C23E63AC4C5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D10896CA1A2DE9E8720FE507</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>FE0375AA88EFF125F64793CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0044C96E680DA4022F5C8845</string>
-				<string>D66C251BE54260514CDFBB72</string>
-				<string>3E0CE1105122444516A4A042</string>
-				<string>5371338488C3F84626FF4EAE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Authentication</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FEECA6D846442D972CAFC2E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-TMTumblrSDK-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>F886F54EA9220F153F49257B</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042FFB69ACF85192D6553937 /* TMTumblrAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8218CA93BCA59FC955D9F9 /* TMTumblrAuthenticator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		05035975D6BBA344CFB294E1 /* TMTumblrAppClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C118E3E1021751688A6D4BB7 /* TMTumblrAppClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		0613AC308AC103B9E0D5E4D7 /* JXHTTPRequestBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 654FDE85BF3CFC635F536468 /* JXHTTPRequestBody.h */; };
+		0AA3C4A291D7EBF9DE6C32DB /* JXHTTPOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A47633ABD642EC4606D28F /* JXHTTPOperationQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		0CF824B4FA5D873B54422828 /* TMAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A10E43C4479DDB2ACB1AB57 /* TMAPIClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		0DCB869795EB33FEFEF8B4C6 /* TMPodspec.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E8B3BE40CE99C650F8950E /* TMPodspec.h */; };
+		13A53B415B7532D9F5259DA9 /* TMTumblrAppClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBC50092E6125B9A4C560B4 /* TMTumblrAppClient.h */; };
+		1B30B8B5CDF0516A8E2B4814 /* TMTumblrActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D6E38EE1166DFBD1D9603B /* TMTumblrActivity.h */; };
+		1B98B953340794C8C967E206 /* TMSDKFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 554EBD5FF931CAA499AB61CB /* TMSDKFunctions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		1BD5CB926C539F3E39D72517 /* JXHTTPDataBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 56045FBCFF0FD62309D3BDE4 /* JXHTTPDataBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		1CE5717C4D27EF8415D3731F /* JXHTTPJSONBody.m in Sources */ = {isa = PBXBuildFile; fileRef = FA77AEB86201029656D100DC /* JXHTTPJSONBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		1F61FEE721D5B9814F4CEDBF /* JXHTTPOperation+Convenience.h in Headers */ = {isa = PBXBuildFile; fileRef = 0194E4C80E79B6340BFB1F44 /* JXHTTPOperation+Convenience.h */; };
+		2491D64590C938FFC66549CD /* Pods-Spectacles-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E25E46451B738D28F8721650 /* Pods-Spectacles-dummy.m */; };
+		33DDBA1FA0A54C418AAF6C02 /* JXHTTPDataBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F63D3AEC4D60BD083FE328F /* JXHTTPDataBody.h */; };
+		3C311C025E29703C08C29343 /* Pods-TMTumblrSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F790AD701BE959ED825D8DB6 /* Pods-TMTumblrSDK-dummy.m */; };
+		3DD8E2DE2D8BBA72D2BAB9C7 /* JXHTTPJSONBody.h in Headers */ = {isa = PBXBuildFile; fileRef = F640DB439F29BAA236DCD522 /* JXHTTPJSONBody.h */; };
+		49687BC53541DF172A6E8C6D /* JXHTTPFormEncodedBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 5801B2B64FAAE547B8048822 /* JXHTTPFormEncodedBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		4E26E1C3F08D94B72E536F06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96ADEF77B6F008C1B87C6F45 /* Foundation.framework */; };
+		57BA9C4239133DF9AC92B09A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96ADEF77B6F008C1B87C6F45 /* Foundation.framework */; };
+		596539AA125B9E20EA4EB657 /* TMTumblrActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA82DAD3D4654376A594D23 /* TMTumblrActivity.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		596989BCC0A32CA8FEA5940D /* TMSDKUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 629356F81C1FF3E3A1FD2642 /* TMSDKUserAgent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		5AB9AF6CEEEB46EDD1A44182 /* JXURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB9D2DE458AAD80999E2E42 /* JXURLConnectionOperation.h */; };
+		5D25D49835CBC63DE49D3447 /* JXOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B9CBF8EFE356AEBEF02F5B /* JXOperation.h */; };
+		67E28A2F815DEC1A4A74D160 /* TMTumblrAuthenticator.h in Headers */ = {isa = PBXBuildFile; fileRef = AB16AF18278EA9E19B373318 /* TMTumblrAuthenticator.h */; };
+		6FC00537FC9C6B082B27495C /* JXHTTPFileBody.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CB01A48AC6674C58A4AEFB /* JXHTTPFileBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		7247D150CCE58235E27F6C89 /* JXHTTPOperationQueueDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1155327443315811A66553F7 /* JXHTTPOperationQueueDelegate.h */; };
+		76ECD3E1F8D91E96766219F2 /* TMOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A8AEC8D1A250F7F7E174E2 /* TMOAuth.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		849FB704ECDF477A0A7A7908 /* JXURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A80C08690DF91E3271641FB /* JXURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		8A6D992830BCF67FE7EF24A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96ADEF77B6F008C1B87C6F45 /* Foundation.framework */; };
+		9ABF62B50EFC71AF0ADF005E /* TMAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E9D0F289977C5235C32FFB /* TMAPIClient.h */; };
+		9E5FE8AD454F57D7A23DA81E /* TMOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = FE38D9D83C0E76CD31D49BFE /* TMOAuth.h */; };
+		9E79B7E59BD46B199FC81908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96ADEF77B6F008C1B87C6F45 /* Foundation.framework */; };
+		AA8543F776A124BFD36F8E71 /* TMSDKUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = B23D330FA06D6D2DBD01038C /* TMSDKUserAgent.h */; };
+		ACC96FA8508387BE37F314A7 /* JXHTTPOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 731A067F1257CDE621EA701B /* JXHTTPOperationQueue.h */; };
+		B6F0633FF0F24E47C7F0FD3A /* JXHTTPMultipartBody.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4E1CC6E3EB301CB2EBA222 /* JXHTTPMultipartBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		BD4D914E22DECEC8F96F0027 /* JXOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6A164C701E12B2EA9E152A /* JXOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		BF80C8DB6FA547E9D03F86E6 /* TMPodspec.m in Sources */ = {isa = PBXBuildFile; fileRef = F20F9615D0CFA2F62D0FA6CE /* TMPodspec.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		CB342C1E2D537D578EB106B4 /* JXURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 509E3B38C3C1E10ED67B9944 /* JXURLEncoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		CE304BB9AFC8B569D99F3C28 /* JXHTTPOperationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C6454554AB2255EE286642D2 /* JXHTTPOperationDelegate.h */; };
+		D3F032574F6EE93C853F087F /* JXURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBF29FE39CADA47B7115A28 /* JXURLEncoding.h */; };
+		D5360BFB86E11BCBC9051D3C /* TMSDKFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F4EE7834C7509CD4ADE25D /* TMSDKFunctions.h */; };
+		D690B143E5FE139CC95970C0 /* JXHTTPOperation+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EDAD6FFEDCE2DEDB7AD437 /* JXHTTPOperation+Convenience.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		D86FE100E4E404E9EF3F4A65 /* JXHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457B92F899844071F28594F /* JXHTTPOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		DCB15C4AE21C24272F73EF13 /* JXHTTPOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D83181B141B81538EB45F8 /* JXHTTPOperation.h */; };
+		EF9009B78E90C197C5F57037 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D966E89D92F8663C388E62 /* Pods-dummy.m */; };
+		F5C9610025F80024606AC789 /* JXHTTPFileBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 3975426F71F49E6115C140DB /* JXHTTPFileBody.h */; };
+		F6CD84FEE0762F33DA61C8D1 /* JXHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = C65372D1A437EDFBCA73F4EF /* JXHTTP.h */; };
+		F8AF6D29BD5462B50B981140 /* Pods-JXHTTP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C451F9147435B4A2573C686 /* Pods-JXHTTP-dummy.m */; };
+		FE512E41B55B35ACF3AB8C51 /* JXHTTPMultipartBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 3002D116BA5AA24A7230383D /* JXHTTPMultipartBody.h */; };
+		FE7DF392033E436695B01645 /* JXHTTPFormEncodedBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 894663214FF837C671ADD939 /* JXHTTPFormEncodedBody.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EC6E6F12C93FECE13255ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B01992C01D49FE555E048904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DFBB70B949427B189B32F09;
+			remoteInfo = "Pods-Spectacles";
+		};
+		6FB93C34A497182C20694EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B01992C01D49FE555E048904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF4DD528E3C61711FB84D01;
+			remoteInfo = "Pods-JXHTTP";
+		};
+		854BC9A08200086A6401C7C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B01992C01D49FE555E048904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF4DD528E3C61711FB84D01;
+			remoteInfo = "Pods-JXHTTP";
+		};
+		9869BD95338C31E9145904E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B01992C01D49FE555E048904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6B4166886D979E7111C6DFE;
+			remoteInfo = "Pods-TMTumblrSDK";
+		};
+		D7B896DE19C3145C8B77E3CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B01992C01D49FE555E048904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DFBB70B949427B189B32F09;
+			remoteInfo = "Pods-Spectacles";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0194E4C80E79B6340BFB1F44 /* JXHTTPOperation+Convenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JXHTTPOperation+Convenience.h"; path = "JXHTTP/JXHTTPOperation+Convenience.h"; sourceTree = "<group>"; };
+		0409971C0F407278392D55CF /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0457B92F899844071F28594F /* JXHTTPOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPOperation.m; path = JXHTTP/JXHTTPOperation.m; sourceTree = "<group>"; };
+		0A6A164C701E12B2EA9E152A /* JXOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXOperation.m; path = JXHTTP/JXOperation.m; sourceTree = "<group>"; };
+		0CA82DAD3D4654376A594D23 /* TMTumblrActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMTumblrActivity.m; path = TMTumblrSDK/Activity/TMTumblrActivity.m; sourceTree = "<group>"; };
+		0CBC50092E6125B9A4C560B4 /* TMTumblrAppClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMTumblrAppClient.h; path = TMTumblrSDK/AppClient/TMTumblrAppClient.h; sourceTree = "<group>"; };
+		0E8218CA93BCA59FC955D9F9 /* TMTumblrAuthenticator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMTumblrAuthenticator.m; path = TMTumblrSDK/Authentication/TMTumblrAuthenticator.m; sourceTree = "<group>"; };
+		0F63D3AEC4D60BD083FE328F /* JXHTTPDataBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPDataBody.h; path = JXHTTP/JXHTTPDataBody.h; sourceTree = "<group>"; };
+		1155327443315811A66553F7 /* JXHTTPOperationQueueDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationQueueDelegate.h; path = JXHTTP/JXHTTPOperationQueueDelegate.h; sourceTree = "<group>"; };
+		119AD742196459EB6043E281 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		160AA5B0CBC408B3B9861413 /* Pods-JXHTTP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXHTTP.xcconfig"; sourceTree = "<group>"; };
+		1C451F9147435B4A2573C686 /* Pods-JXHTTP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXHTTP-dummy.m"; sourceTree = "<group>"; };
+		1E6E97EDF7F4FF69C5E8AFA1 /* Pods-Spectacles-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Spectacles-prefix.pch"; sourceTree = "<group>"; };
+		225ECE1650CC61C3BC726A2B /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29F7A291EEF51902D25FDA37 /* Pods-TMTumblrSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMTumblrSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		3002D116BA5AA24A7230383D /* JXHTTPMultipartBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPMultipartBody.h; path = JXHTTP/JXHTTPMultipartBody.h; sourceTree = "<group>"; };
+		3233E0CB59F98601F7AD2B51 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		32A8AEC8D1A250F7F7E174E2 /* TMOAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMOAuth.m; path = TMTumblrSDK/Authentication/TMOAuth.m; sourceTree = "<group>"; };
+		34A47633ABD642EC4606D28F /* JXHTTPOperationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPOperationQueue.m; path = JXHTTP/JXHTTPOperationQueue.m; sourceTree = "<group>"; };
+		34EDAD6FFEDCE2DEDB7AD437 /* JXHTTPOperation+Convenience.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JXHTTPOperation+Convenience.m"; path = "JXHTTP/JXHTTPOperation+Convenience.m"; sourceTree = "<group>"; };
+		3597FB0FF7C3C0F1F7DF43D2 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		3975426F71F49E6115C140DB /* JXHTTPFileBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPFileBody.h; path = JXHTTP/JXHTTPFileBody.h; sourceTree = "<group>"; };
+		45D6E38EE1166DFBD1D9603B /* TMTumblrActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMTumblrActivity.h; path = TMTumblrSDK/Activity/TMTumblrActivity.h; sourceTree = "<group>"; };
+		45F4EE7834C7509CD4ADE25D /* TMSDKFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMSDKFunctions.h; path = TMTumblrSDK/Core/TMSDKFunctions.h; sourceTree = "<group>"; };
+		45FB0C1A89EBFADDEB62797C /* Pods-Spectacles-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Spectacles-Private.xcconfig"; sourceTree = "<group>"; };
+		462525C5BD00F5A827916D5E /* TMTumblrSDK.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = TMTumblrSDK.podspec.json; sourceTree = "<group>"; };
+		498AD196C743115DC2387657 /* UIActivityTumblr~ipad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIActivityTumblr~ipad@2x.png"; path = "TMTumblrSDK/Activity/UIActivityTumblr~ipad@2x.png"; sourceTree = "<group>"; };
+		4A80C08690DF91E3271641FB /* JXURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXURLConnectionOperation.m; path = JXHTTP/JXURLConnectionOperation.m; sourceTree = "<group>"; };
+		509E3B38C3C1E10ED67B9944 /* JXURLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXURLEncoding.m; path = JXHTTP/JXURLEncoding.m; sourceTree = "<group>"; };
+		554EBD5FF931CAA499AB61CB /* TMSDKFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMSDKFunctions.m; path = TMTumblrSDK/Core/TMSDKFunctions.m; sourceTree = "<group>"; };
+		56045FBCFF0FD62309D3BDE4 /* JXHTTPDataBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPDataBody.m; path = JXHTTP/JXHTTPDataBody.m; sourceTree = "<group>"; };
+		5742153239B10195222FFFD8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		5801B2B64FAAE547B8048822 /* JXHTTPFormEncodedBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPFormEncodedBody.m; path = JXHTTP/JXHTTPFormEncodedBody.m; sourceTree = "<group>"; };
+		629356F81C1FF3E3A1FD2642 /* TMSDKUserAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMSDKUserAgent.m; path = TMTumblrSDK/Core/TMSDKUserAgent.m; sourceTree = "<group>"; };
+		654FDE85BF3CFC635F536468 /* JXHTTPRequestBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPRequestBody.h; path = JXHTTP/JXHTTPRequestBody.h; sourceTree = "<group>"; };
+		658A7063809E374A9716F981 /* UIActivityTumblr@2x~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIActivityTumblr@2x~ipad.png"; path = "TMTumblrSDK/Activity/UIActivityTumblr@2x~ipad.png"; sourceTree = "<group>"; };
+		69D83181B141B81538EB45F8 /* JXHTTPOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperation.h; path = JXHTTP/JXHTTPOperation.h; sourceTree = "<group>"; };
+		69E9D0F289977C5235C32FFB /* TMAPIClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMAPIClient.h; path = TMTumblrSDK/APIClient/TMAPIClient.h; sourceTree = "<group>"; };
+		6F81A8B7BF0200D945734213 /* libPods-JXHTTP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXHTTP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		731A067F1257CDE621EA701B /* JXHTTPOperationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationQueue.h; path = JXHTTP/JXHTTPOperationQueue.h; sourceTree = "<group>"; };
+		7C94110FB7B4D2B04C030AD5 /* Pods-Spectacles.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Spectacles.xcconfig"; sourceTree = "<group>"; };
+		894663214FF837C671ADD939 /* JXHTTPFormEncodedBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPFormEncodedBody.h; path = JXHTTP/JXHTTPFormEncodedBody.h; sourceTree = "<group>"; };
+		93D966E89D92F8663C388E62 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		96ADEF77B6F008C1B87C6F45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		97DC471EF8163AA700334518 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A10E43C4479DDB2ACB1AB57 /* TMAPIClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMAPIClient.m; path = TMTumblrSDK/APIClient/TMAPIClient.m; sourceTree = "<group>"; };
+		A5878584DD0DE0A4702D26D7 /* Pods-TMTumblrSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMTumblrSDK.xcconfig"; sourceTree = "<group>"; };
+		A7D12B33F4B83263A1044EEB /* Pods-TMTumblrSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TMTumblrSDK-prefix.pch"; sourceTree = "<group>"; };
+		A8342F3877DB34C1F986ACBA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		AB16AF18278EA9E19B373318 /* TMTumblrAuthenticator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMTumblrAuthenticator.h; path = TMTumblrSDK/Authentication/TMTumblrAuthenticator.h; sourceTree = "<group>"; };
+		AF4E1CC6E3EB301CB2EBA222 /* JXHTTPMultipartBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPMultipartBody.m; path = JXHTTP/JXHTTPMultipartBody.m; sourceTree = "<group>"; };
+		B23D330FA06D6D2DBD01038C /* TMSDKUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMSDKUserAgent.h; path = TMTumblrSDK/Core/TMSDKUserAgent.h; sourceTree = "<group>"; };
+		B5352B0D43178F313A5EEBD3 /* Pods-JXHTTP-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXHTTP-Private.xcconfig"; sourceTree = "<group>"; };
+		B665BA3780EB385F2F1DBE4E /* UIActivityTumblr.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = UIActivityTumblr.png; path = TMTumblrSDK/Activity/UIActivityTumblr.png; sourceTree = "<group>"; };
+		C118E3E1021751688A6D4BB7 /* TMTumblrAppClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMTumblrAppClient.m; path = TMTumblrSDK/AppClient/TMTumblrAppClient.m; sourceTree = "<group>"; };
+		C2CB01A48AC6674C58A4AEFB /* JXHTTPFileBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPFileBody.m; path = JXHTTP/JXHTTPFileBody.m; sourceTree = "<group>"; };
+		C4BD3242C28C3DEF47E01C9B /* UIActivityTumblr@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIActivityTumblr@2x.png"; path = "TMTumblrSDK/Activity/UIActivityTumblr@2x.png"; sourceTree = "<group>"; };
+		C6454554AB2255EE286642D2 /* JXHTTPOperationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationDelegate.h; path = JXHTTP/JXHTTPOperationDelegate.h; sourceTree = "<group>"; };
+		C65372D1A437EDFBCA73F4EF /* JXHTTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTP.h; path = JXHTTP/JXHTTP.h; sourceTree = "<group>"; };
+		C6E3AFF25C5921F012B97D60 /* libPods-TMTumblrSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TMTumblrSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B9CBF8EFE356AEBEF02F5B /* JXOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXOperation.h; path = JXHTTP/JXOperation.h; sourceTree = "<group>"; };
+		D6CB6585E6559364B3DF52F4 /* UIActivityTumblr~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIActivityTumblr~ipad.png"; path = "TMTumblrSDK/Activity/UIActivityTumblr~ipad.png"; sourceTree = "<group>"; };
+		E1E8B3BE40CE99C650F8950E /* TMPodspec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMPodspec.h; path = Pod/Classes/TMPodspec.h; sourceTree = "<group>"; };
+		E25E46451B738D28F8721650 /* Pods-Spectacles-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Spectacles-dummy.m"; sourceTree = "<group>"; };
+		E3EFD32BFA8BA9BE1F354906 /* Pods-JXHTTP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXHTTP-prefix.pch"; sourceTree = "<group>"; };
+		EB0C958425C82A5D8D28FBF8 /* libPods-Spectacles.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Spectacles.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBF29FE39CADA47B7115A28 /* JXURLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXURLEncoding.h; path = JXHTTP/JXURLEncoding.h; sourceTree = "<group>"; };
+		F20F9615D0CFA2F62D0FA6CE /* TMPodspec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMPodspec.m; path = Pod/Classes/TMPodspec.m; sourceTree = "<group>"; };
+		F640DB439F29BAA236DCD522 /* JXHTTPJSONBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPJSONBody.h; path = JXHTTP/JXHTTPJSONBody.h; sourceTree = "<group>"; };
+		F790AD701BE959ED825D8DB6 /* Pods-TMTumblrSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TMTumblrSDK-dummy.m"; sourceTree = "<group>"; };
+		FA77AEB86201029656D100DC /* JXHTTPJSONBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPJSONBody.m; path = JXHTTP/JXHTTPJSONBody.m; sourceTree = "<group>"; };
+		FBB9D2DE458AAD80999E2E42 /* JXURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXURLConnectionOperation.h; path = JXHTTP/JXURLConnectionOperation.h; sourceTree = "<group>"; };
+		FE38D9D83C0E76CD31D49BFE /* TMOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMOAuth.h; path = TMTumblrSDK/Authentication/TMOAuth.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A4A2EE77E1C034AE948E3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BA9C4239133DF9AC92B09A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904A2655DE941F62F314A806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E79B7E59BD46B199FC81908 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF225C97CE5FE04830A5766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E26E1C3F08D94B72E536F06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F446197CAAA23E139358CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6D992830BCF67FE7EF24A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0513D15C27A0B39DA8E2E69C = {
+			isa = PBXGroup;
+			children = (
+				0409971C0F407278392D55CF /* Podfile */,
+				0A08A07F2763811E12086D52 /* Frameworks */,
+				F6488A3C2E5EC9A2E6FD327B /* Pods */,
+				477EAA564DA44CD21A5F1CD5 /* Products */,
+				23DB2C0E50F11310A6D3DBCF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		0A08A07F2763811E12086D52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5832752674C0B393E8D0A08 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C66EDE67E85620E17E8F689 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				69E9D0F289977C5235C32FFB /* TMAPIClient.h */,
+				9A10E43C4479DDB2ACB1AB57 /* TMAPIClient.m */,
+				E1E5E29A3E7FFA433F2C8238 /* Authentication */,
+			);
+			name = APIClient;
+			sourceTree = "<group>";
+		};
+		0F7C1399FA7B98DBAA4727FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				160AA5B0CBC408B3B9861413 /* Pods-JXHTTP.xcconfig */,
+				B5352B0D43178F313A5EEBD3 /* Pods-JXHTTP-Private.xcconfig */,
+				1C451F9147435B4A2573C686 /* Pods-JXHTTP-dummy.m */,
+				E3EFD32BFA8BA9BE1F354906 /* Pods-JXHTTP-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-JXHTTP";
+			sourceTree = "<group>";
+		};
+		23DB2C0E50F11310A6D3DBCF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DBEA185EA462A31CC97BC89 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4535A0124357A16B46058F1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				462525C5BD00F5A827916D5E /* TMTumblrSDK.podspec.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		46EFFB5C91BFFA4CBD34487A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C94110FB7B4D2B04C030AD5 /* Pods-Spectacles.xcconfig */,
+				45FB0C1A89EBFADDEB62797C /* Pods-Spectacles-Private.xcconfig */,
+				E25E46451B738D28F8721650 /* Pods-Spectacles-dummy.m */,
+				1E6E97EDF7F4FF69C5E8AFA1 /* Pods-Spectacles-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Spectacles";
+			sourceTree = "<group>";
+		};
+		477EAA564DA44CD21A5F1CD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97DC471EF8163AA700334518 /* libPods.a */,
+				6F81A8B7BF0200D945734213 /* libPods-JXHTTP.a */,
+				EB0C958425C82A5D8D28FBF8 /* libPods-Spectacles.a */,
+				C6E3AFF25C5921F012B97D60 /* libPods-TMTumblrSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		618B6235CC78AF83D546BC73 /* Spectacles */ = {
+			isa = PBXGroup;
+			children = (
+				E1E8B3BE40CE99C650F8950E /* TMPodspec.h */,
+				F20F9615D0CFA2F62D0FA6CE /* TMPodspec.m */,
+				46EFFB5C91BFFA4CBD34487A /* Support Files */,
+			);
+			path = Spectacles;
+			sourceTree = "<group>";
+		};
+		89DEDFFE1B36F69A1787B7DD /* JXHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				C65372D1A437EDFBCA73F4EF /* JXHTTP.h */,
+				0F63D3AEC4D60BD083FE328F /* JXHTTPDataBody.h */,
+				56045FBCFF0FD62309D3BDE4 /* JXHTTPDataBody.m */,
+				3975426F71F49E6115C140DB /* JXHTTPFileBody.h */,
+				C2CB01A48AC6674C58A4AEFB /* JXHTTPFileBody.m */,
+				894663214FF837C671ADD939 /* JXHTTPFormEncodedBody.h */,
+				5801B2B64FAAE547B8048822 /* JXHTTPFormEncodedBody.m */,
+				F640DB439F29BAA236DCD522 /* JXHTTPJSONBody.h */,
+				FA77AEB86201029656D100DC /* JXHTTPJSONBody.m */,
+				3002D116BA5AA24A7230383D /* JXHTTPMultipartBody.h */,
+				AF4E1CC6E3EB301CB2EBA222 /* JXHTTPMultipartBody.m */,
+				69D83181B141B81538EB45F8 /* JXHTTPOperation.h */,
+				0457B92F899844071F28594F /* JXHTTPOperation.m */,
+				0194E4C80E79B6340BFB1F44 /* JXHTTPOperation+Convenience.h */,
+				34EDAD6FFEDCE2DEDB7AD437 /* JXHTTPOperation+Convenience.m */,
+				C6454554AB2255EE286642D2 /* JXHTTPOperationDelegate.h */,
+				731A067F1257CDE621EA701B /* JXHTTPOperationQueue.h */,
+				34A47633ABD642EC4606D28F /* JXHTTPOperationQueue.m */,
+				1155327443315811A66553F7 /* JXHTTPOperationQueueDelegate.h */,
+				654FDE85BF3CFC635F536468 /* JXHTTPRequestBody.h */,
+				D3B9CBF8EFE356AEBEF02F5B /* JXOperation.h */,
+				0A6A164C701E12B2EA9E152A /* JXOperation.m */,
+				FBB9D2DE458AAD80999E2E42 /* JXURLConnectionOperation.h */,
+				4A80C08690DF91E3271641FB /* JXURLConnectionOperation.m */,
+				EEBF29FE39CADA47B7115A28 /* JXURLEncoding.h */,
+				509E3B38C3C1E10ED67B9944 /* JXURLEncoding.m */,
+				0F7C1399FA7B98DBAA4727FE /* Support Files */,
+			);
+			path = JXHTTP;
+			sourceTree = "<group>";
+		};
+		8DBEA185EA462A31CC97BC89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				225ECE1650CC61C3BC726A2B /* Pods-acknowledgements.markdown */,
+				3597FB0FF7C3C0F1F7DF43D2 /* Pods-acknowledgements.plist */,
+				93D966E89D92F8663C388E62 /* Pods-dummy.m */,
+				3233E0CB59F98601F7AD2B51 /* Pods-environment.h */,
+				A8342F3877DB34C1F986ACBA /* Pods-resources.sh */,
+				119AD742196459EB6043E281 /* Pods.debug.xcconfig */,
+				5742153239B10195222FFFD8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		9F16BE6DEE2B2C6BBB16E64C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5878584DD0DE0A4702D26D7 /* Pods-TMTumblrSDK.xcconfig */,
+				29F7A291EEF51902D25FDA37 /* Pods-TMTumblrSDK-Private.xcconfig */,
+				F790AD701BE959ED825D8DB6 /* Pods-TMTumblrSDK-dummy.m */,
+				A7D12B33F4B83263A1044EEB /* Pods-TMTumblrSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TMTumblrSDK";
+			sourceTree = "<group>";
+		};
+		A940500BBCE2909FB6D62F74 /* AppClient */ = {
+			isa = PBXGroup;
+			children = (
+				0CBC50092E6125B9A4C560B4 /* TMTumblrAppClient.h */,
+				C118E3E1021751688A6D4BB7 /* TMTumblrAppClient.m */,
+			);
+			name = AppClient;
+			sourceTree = "<group>";
+		};
+		C57B77D7929DC198F2A041D6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				45F4EE7834C7509CD4ADE25D /* TMSDKFunctions.h */,
+				554EBD5FF931CAA499AB61CB /* TMSDKFunctions.m */,
+				B23D330FA06D6D2DBD01038C /* TMSDKUserAgent.h */,
+				629356F81C1FF3E3A1FD2642 /* TMSDKUserAgent.m */,
+				4535A0124357A16B46058F1B /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C5832752674C0B393E8D0A08 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				96ADEF77B6F008C1B87C6F45 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D15AA9C50292767F61F6B4C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B665BA3780EB385F2F1DBE4E /* UIActivityTumblr.png */,
+				C4BD3242C28C3DEF47E01C9B /* UIActivityTumblr@2x.png */,
+				658A7063809E374A9716F981 /* UIActivityTumblr@2x~ipad.png */,
+				D6CB6585E6559364B3DF52F4 /* UIActivityTumblr~ipad.png */,
+				498AD196C743115DC2387657 /* UIActivityTumblr~ipad@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E1E5E29A3E7FFA433F2C8238 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				FE38D9D83C0E76CD31D49BFE /* TMOAuth.h */,
+				32A8AEC8D1A250F7F7E174E2 /* TMOAuth.m */,
+				AB16AF18278EA9E19B373318 /* TMTumblrAuthenticator.h */,
+				0E8218CA93BCA59FC955D9F9 /* TMTumblrAuthenticator.m */,
+			);
+			name = Authentication;
+			sourceTree = "<group>";
+		};
+		E2A5BD2330DC3C973AF9211F /* TMTumblrSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0C66EDE67E85620E17E8F689 /* APIClient */,
+				FD25130E4A84DC4EE6AD109C /* Activity */,
+				A940500BBCE2909FB6D62F74 /* AppClient */,
+				C57B77D7929DC198F2A041D6 /* Core */,
+				9F16BE6DEE2B2C6BBB16E64C /* Support Files */,
+			);
+			path = TMTumblrSDK;
+			sourceTree = "<group>";
+		};
+		F6488A3C2E5EC9A2E6FD327B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89DEDFFE1B36F69A1787B7DD /* JXHTTP */,
+				618B6235CC78AF83D546BC73 /* Spectacles */,
+				E2A5BD2330DC3C973AF9211F /* TMTumblrSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD25130E4A84DC4EE6AD109C /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				45D6E38EE1166DFBD1D9603B /* TMTumblrActivity.h */,
+				0CA82DAD3D4654376A594D23 /* TMTumblrActivity.m */,
+				D15AA9C50292767F61F6B4C2 /* Resources */,
+			);
+			name = Activity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0EB15FE0ECADF31ADD7ECBCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CD84FEE0762F33DA61C8D1 /* JXHTTP.h in Headers */,
+				33DDBA1FA0A54C418AAF6C02 /* JXHTTPDataBody.h in Headers */,
+				F5C9610025F80024606AC789 /* JXHTTPFileBody.h in Headers */,
+				FE7DF392033E436695B01645 /* JXHTTPFormEncodedBody.h in Headers */,
+				3DD8E2DE2D8BBA72D2BAB9C7 /* JXHTTPJSONBody.h in Headers */,
+				FE512E41B55B35ACF3AB8C51 /* JXHTTPMultipartBody.h in Headers */,
+				1F61FEE721D5B9814F4CEDBF /* JXHTTPOperation+Convenience.h in Headers */,
+				DCB15C4AE21C24272F73EF13 /* JXHTTPOperation.h in Headers */,
+				CE304BB9AFC8B569D99F3C28 /* JXHTTPOperationDelegate.h in Headers */,
+				ACC96FA8508387BE37F314A7 /* JXHTTPOperationQueue.h in Headers */,
+				7247D150CCE58235E27F6C89 /* JXHTTPOperationQueueDelegate.h in Headers */,
+				0613AC308AC103B9E0D5E4D7 /* JXHTTPRequestBody.h in Headers */,
+				5D25D49835CBC63DE49D3447 /* JXOperation.h in Headers */,
+				5AB9AF6CEEEB46EDD1A44182 /* JXURLConnectionOperation.h in Headers */,
+				D3F032574F6EE93C853F087F /* JXURLEncoding.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8F85D691BC8B283D2241D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCB869795EB33FEFEF8B4C6 /* TMPodspec.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3631BAFBF729016F4DC6BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABF62B50EFC71AF0ADF005E /* TMAPIClient.h in Headers */,
+				9E5FE8AD454F57D7A23DA81E /* TMOAuth.h in Headers */,
+				D5360BFB86E11BCBC9051D3C /* TMSDKFunctions.h in Headers */,
+				AA8543F776A124BFD36F8E71 /* TMSDKUserAgent.h in Headers */,
+				1B30B8B5CDF0516A8E2B4814 /* TMTumblrActivity.h in Headers */,
+				13A53B415B7532D9F5259DA9 /* TMTumblrAppClient.h in Headers */,
+				67E28A2F815DEC1A4A74D160 /* TMTumblrAuthenticator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D500262D5E0AF2A617D772F /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB0F77CBCFA5BA008195598 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				6ACC61714670E4841360366B /* Sources */,
+				904A2655DE941F62F314A806 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7543BD828B4C9A5B84AB52C4 /* PBXTargetDependency */,
+				C47401FC3A3A764415B7B440 /* PBXTargetDependency */,
+				44C200A2BD6049A66BF21E5D /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 97DC471EF8163AA700334518 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8DFBB70B949427B189B32F09 /* Pods-Spectacles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B70DC783CEDA6C6F672B60BD /* Build configuration list for PBXNativeTarget "Pods-Spectacles" */;
+			buildPhases = (
+				C25E64C2C8F9D35257F5D869 /* Sources */,
+				DBF225C97CE5FE04830A5766 /* Frameworks */,
+				5B8F85D691BC8B283D2241D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Spectacles";
+			productName = "Pods-Spectacles";
+			productReference = EB0C958425C82A5D8D28FBF8 /* libPods-Spectacles.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A6B4166886D979E7111C6DFE /* Pods-TMTumblrSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CEF5EFE68CA1096BB40DDF7 /* Build configuration list for PBXNativeTarget "Pods-TMTumblrSDK" */;
+			buildPhases = (
+				E76573D20FA63561B4E4FAA8 /* Sources */,
+				0A4A2EE77E1C034AE948E3DC /* Frameworks */,
+				9A3631BAFBF729016F4DC6BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6CD7F9F3E2BCA95E9FA7CA3 /* PBXTargetDependency */,
+				ADE961917227BB0707C2C51A /* PBXTargetDependency */,
+			);
+			name = "Pods-TMTumblrSDK";
+			productName = "Pods-TMTumblrSDK";
+			productReference = C6E3AFF25C5921F012B97D60 /* libPods-TMTumblrSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EBF4DD528E3C61711FB84D01 /* Pods-JXHTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FAE1EF19DEFCFBC3A32C3BE /* Build configuration list for PBXNativeTarget "Pods-JXHTTP" */;
+			buildPhases = (
+				2FCA98D73F661F9901ECCE86 /* Sources */,
+				E3F446197CAAA23E139358CD /* Frameworks */,
+				0EB15FE0ECADF31ADD7ECBCD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JXHTTP";
+			productName = "Pods-JXHTTP";
+			productReference = 6F81A8B7BF0200D945734213 /* libPods-JXHTTP.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B01992C01D49FE555E048904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 4F8FFC1C1346E7B52B6DE3A2 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0513D15C27A0B39DA8E2E69C;
+			productRefGroup = 477EAA564DA44CD21A5F1CD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D500262D5E0AF2A617D772F /* Pods */,
+				EBF4DD528E3C61711FB84D01 /* Pods-JXHTTP */,
+				8DFBB70B949427B189B32F09 /* Pods-Spectacles */,
+				A6B4166886D979E7111C6DFE /* Pods-TMTumblrSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FCA98D73F661F9901ECCE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD5CB926C539F3E39D72517 /* JXHTTPDataBody.m in Sources */,
+				6FC00537FC9C6B082B27495C /* JXHTTPFileBody.m in Sources */,
+				49687BC53541DF172A6E8C6D /* JXHTTPFormEncodedBody.m in Sources */,
+				1CE5717C4D27EF8415D3731F /* JXHTTPJSONBody.m in Sources */,
+				B6F0633FF0F24E47C7F0FD3A /* JXHTTPMultipartBody.m in Sources */,
+				D690B143E5FE139CC95970C0 /* JXHTTPOperation+Convenience.m in Sources */,
+				D86FE100E4E404E9EF3F4A65 /* JXHTTPOperation.m in Sources */,
+				0AA3C4A291D7EBF9DE6C32DB /* JXHTTPOperationQueue.m in Sources */,
+				BD4D914E22DECEC8F96F0027 /* JXOperation.m in Sources */,
+				849FB704ECDF477A0A7A7908 /* JXURLConnectionOperation.m in Sources */,
+				CB342C1E2D537D578EB106B4 /* JXURLEncoding.m in Sources */,
+				F8AF6D29BD5462B50B981140 /* Pods-JXHTTP-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACC61714670E4841360366B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9009B78E90C197C5F57037 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25E64C2C8F9D35257F5D869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2491D64590C938FFC66549CD /* Pods-Spectacles-dummy.m in Sources */,
+				BF80C8DB6FA547E9D03F86E6 /* TMPodspec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76573D20FA63561B4E4FAA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C311C025E29703C08C29343 /* Pods-TMTumblrSDK-dummy.m in Sources */,
+				0CF824B4FA5D873B54422828 /* TMAPIClient.m in Sources */,
+				76ECD3E1F8D91E96766219F2 /* TMOAuth.m in Sources */,
+				1B98B953340794C8C967E206 /* TMSDKFunctions.m in Sources */,
+				596989BCC0A32CA8FEA5940D /* TMSDKUserAgent.m in Sources */,
+				596539AA125B9E20EA4EB657 /* TMTumblrActivity.m in Sources */,
+				05035975D6BBA344CFB294E1 /* TMTumblrAppClient.m in Sources */,
+				042FFB69ACF85192D6553937 /* TMTumblrAuthenticator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44C200A2BD6049A66BF21E5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TMTumblrSDK";
+			target = A6B4166886D979E7111C6DFE /* Pods-TMTumblrSDK */;
+			targetProxy = 9869BD95338C31E9145904E2 /* PBXContainerItemProxy */;
+		};
+		7543BD828B4C9A5B84AB52C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JXHTTP";
+			target = EBF4DD528E3C61711FB84D01 /* Pods-JXHTTP */;
+			targetProxy = 854BC9A08200086A6401C7C0 /* PBXContainerItemProxy */;
+		};
+		A6CD7F9F3E2BCA95E9FA7CA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JXHTTP";
+			target = EBF4DD528E3C61711FB84D01 /* Pods-JXHTTP */;
+			targetProxy = 6FB93C34A497182C20694EBD /* PBXContainerItemProxy */;
+		};
+		ADE961917227BB0707C2C51A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Spectacles";
+			target = 8DFBB70B949427B189B32F09 /* Pods-Spectacles */;
+			targetProxy = 5EC6E6F12C93FECE13255ACE /* PBXContainerItemProxy */;
+		};
+		C47401FC3A3A764415B7B440 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Spectacles";
+			target = 8DFBB70B949427B189B32F09 /* Pods-Spectacles */;
+			targetProxy = D7B896DE19C3145C8B77E3CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09B078CD161011164D104B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17B006DD26917F4D26E78291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45FB0C1A89EBFADDEB62797C /* Pods-Spectacles-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Spectacles/Pods-Spectacles-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3DE8A84DD2F8FCF262A83109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F7A291EEF51902D25FDA37 /* Pods-TMTumblrSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TMTumblrSDK/Pods-TMTumblrSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		48E65402A748BA6800CEE919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5749C638B0C4F8E64B07D69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5352B0D43178F313A5EEBD3 /* Pods-JXHTTP-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JXHTTP/Pods-JXHTTP-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6EE40E7BDE689ED2A5C85D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5742153239B10195222FFFD8 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8D57DD372844B19D42C2957B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119AD742196459EB6043E281 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BE8C26C5D8F1E2BD670534D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F7A291EEF51902D25FDA37 /* Pods-TMTumblrSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TMTumblrSDK/Pods-TMTumblrSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DBF869C70F6F1B4408CCA60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45FB0C1A89EBFADDEB62797C /* Pods-Spectacles-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Spectacles/Pods-Spectacles-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FCAD81159216FABB8C1CF390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5352B0D43178F313A5EEBD3 /* Pods-JXHTTP-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JXHTTP/Pods-JXHTTP-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CEF5EFE68CA1096BB40DDF7 /* Build configuration list for PBXNativeTarget "Pods-TMTumblrSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8C26C5D8F1E2BD670534D0 /* Debug */,
+				3DE8A84DD2F8FCF262A83109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8FFC1C1346E7B52B6DE3A2 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E65402A748BA6800CEE919 /* Debug */,
+				09B078CD161011164D104B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FAE1EF19DEFCFBC3A32C3BE /* Build configuration list for PBXNativeTarget "Pods-JXHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5749C638B0C4F8E64B07D69B /* Debug */,
+				FCAD81159216FABB8C1CF390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB0F77CBCFA5BA008195598 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D57DD372844B19D42C2957B /* Debug */,
+				6EE40E7BDE689ED2A5C85D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B70DC783CEDA6C6F672B60BD /* Build configuration list for PBXNativeTarget "Pods-Spectacles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B006DD26917F4D26E78291 /* Debug */,
+				DBF869C70F6F1B4408CCA60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B01992C01D49FE555E048904 /* Project object */;
+}
