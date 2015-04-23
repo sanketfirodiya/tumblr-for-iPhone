@@ -13,10 +13,19 @@
 
 - (instancetype)initWithDictionary:(NSDictionary*)dictionary {
     if (self = [super init]) {
-        self.caption = dictionary[kCaption];
-        self.timeStamp = dictionary[kTimestamp];
-        self.tags = dictionary[kTags];
-        self.photo = [[Photo alloc] initWithDictionary:[dictionary[kPhotos] objectAtIndex:0]];
+        
+        if ([dictionary objectForKey:kCaption] && dictionary[kCaption] != [NSNull null]) {
+            self.caption = dictionary[kCaption];
+        }
+        if ([dictionary objectForKey:kTimestamp] && dictionary[kTimestamp] != [NSNull null]) {
+            self.timeStamp = dictionary[kTimestamp];
+        }
+        if ([dictionary objectForKey:kTags] && dictionary[kTags] != [NSNull null]) {
+            self.tags = dictionary[kTags];
+        }
+        if ([dictionary objectForKey:kPhotos] && dictionary[kPhotos] != [NSNull null]) {
+            self.photo = [[Photo alloc] initWithDictionary:[dictionary[kPhotos] objectAtIndex:0]];
+        }
     }
     return self;
 }

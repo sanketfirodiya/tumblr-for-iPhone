@@ -9,12 +9,17 @@
 #import "FeedViewController.h"
 #import "TMAPIClient.h"
 #import "PostsHelper.h"
+#import "Photo.h"
 
 @interface FeedViewController ()
 
-@property (nonatomic, strong) NSMutableArray *posts;
+@property (nonatomic, strong) NSArray *posts;
 
 @end
+
+
+static NSString *kBlogName = @"abratest";
+static NSString *kCellIdentifier = @"PostCell";
 
 @implementation FeedViewController
 
@@ -28,10 +33,16 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    [[TMAPIClient sharedInstance] posts:@"abratest" type:nil parameters:nil callback:^(id result, NSError *error) {
-        //NSLog(@"Result returned from Tumblr API is: %@", result);
-        
-        [PostsHelper buildPostsFromDictionary:result];
+    self.posts = [[NSArray alloc] init];
+    
+    [[TMAPIClient sharedInstance] posts:kBlogName type:nil parameters:nil callback:^(id result, NSError *error) {
+        self.posts = [PostsHelper buildPostsFromDictionary:result];
+        NSLog(@"[NSThread currentThread] in completion block - %@", [NSThread currentThread]);
+        dispatch_async(dispatch_get_main_queue(), ^{
+            NSLog(@"[NSThread currentThread] in dispatch_get_main_queue- %@", [NSThread currentThread]);
+            NSLog(@"self.posts.count - %ld", (long)self.posts.count);
+            [self.iboTableView reloadData];
+        });
     }];
 }
 
@@ -43,7 +54,30 @@
 #pragma mark - Table delegates
 
 - (UITableViewCell*)tableView:(UITableView*)tableView cellForRowAtIndexPath:(NSIndexPath*)indexPath {
-    UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:@"PostCell"];
+    UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:kCellIdentifier];
+    
+    Post *post = [self.posts objectAtIndex:indexPath.row];
+    
+    UIImageView *imageView = (UIImageView *)[cell viewWithTag:1];
+    //imageView.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:post.photo.photoURL]]];
+    
+    [post.photo downloadPhotoWithCompletionBlock:^(BOOL success){
+        if (success) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            
+            UITableViewCell *cell = [self.iboTableView cellForRowAtIndexPath:indexPath];
+            if (cell) {
+                NSLog(@"Photo download complete for image at index - %ld", (long)indexPath.row);
+                imageView.image = post.photo.photoImage;
+            }
+            
+        });
+        }
+    }];
+    
+    UILabel *dateLabel = (UILabel *)[cell viewWithTag:3];
+    dateLabel.text = post.caption;
+    
     return cell;
 }
 
@@ -52,7 +86,7 @@
 }
 
 - (NSInteger)tableView:(UITableView*)tableView numberOfRowsInSection:(NSInteger)section {
-    return 2;
+    return [self.posts count];
 }
 
 @end
