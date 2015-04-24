@@ -10,13 +10,13 @@
 #import "TMAPIClient.h"
 #import "PostsHelper.h"
 #import "Photo.h"
+#import "NSDateFormatterStringLongStyle.h"
 
 @interface FeedViewController ()
 
 @property (nonatomic, strong) NSArray *posts;
 
 @end
-
 
 static NSString *kBlogName = @"abratest";
 static NSString *kCellIdentifier = @"PostCell";
@@ -39,12 +39,7 @@ static NSString *kHtmlPost = @"</body></html>";
     
     [[TMAPIClient sharedInstance] posts:kBlogName type:nil parameters:nil callback:^(id result, NSError *error) {
         self.posts = [PostsHelper buildPostsFromDictionary:result];
-        NSLog(@"[NSThread currentThread] in completion block - %@", [NSThread currentThread]);
-        dispatch_async(dispatch_get_main_queue(), ^{
-            NSLog(@"[NSThread currentThread] in dispatch_get_main_queue- %@", [NSThread currentThread]);
-            NSLog(@"self.posts.count - %ld", (long)self.posts.count);
-            [self.iboTableView reloadData];
-        });
+        [self.iboTableView reloadData];
     }];
 }
 
@@ -58,24 +53,26 @@ static NSString *kHtmlPost = @"</body></html>";
 - (UITableViewCell*)tableView:(UITableView*)tableView cellForRowAtIndexPath:(NSIndexPath*)indexPath {
     UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:kCellIdentifier];
     
-    Post *post = [self.posts objectAtIndex:indexPath.row];
+    Post *post = [self.posts objectAtIndex:indexPath.section];
     
     UIImageView *imageView = (UIImageView *)[cell viewWithTag:1];
-    //imageView.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:post.photo.photoURL]]];
     
-    [post.photo downloadPhotoWithCompletionBlock:^(BOOL success){
-        if (success) {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            
-            UITableViewCell *cell = [self.iboTableView cellForRowAtIndexPath:indexPath];
-            if (cell) {
-                NSLog(@"Photo download complete for image at index - %ld", (long)indexPath.row);
-                imageView.image = post.photo.photoImage;
+    if (post.photo.photoImage) {
+        imageView.image = post.photo.photoImage;
+        
+    } else {
+        imageView.image = nil;
+        [post.photo downloadPhotoWithCompletionBlock:^(BOOL success){
+            if (success) {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    UITableViewCell *cell = [self.iboTableView cellForRowAtIndexPath:indexPath];
+                    if (cell) {
+                        imageView.image = post.photo.photoImage;
+                    }
+                });
             }
-            
-        });
-        }
-    }];
+        }];
+    }
     
     UIWebView *webView = (UIWebView *)[cell viewWithTag:2];
     NSMutableString *html = [NSMutableString stringWithString:kHtmlPre];
@@ -85,38 +82,34 @@ static NSString *kHtmlPost = @"</body></html>";
     [html appendString:kHtmlPost];
     [webView loadHTMLString:[html description] baseURL:nil];
     
-    //[self showCaptionForCellAtIndexPath:indexPath];
-
     UILabel *dateLabel = (UILabel *)[cell viewWithTag:3];
-    //dateLabel.text = post.timeStamp
+    
+    dateLabel.text = [[NSDateFormatterStringLongStyle sharedNSDateFormatterStringLongStyle]
+                      .NSDateFormatter stringFromDate:post.timeStamp];
     
     return cell;
 }
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView*)tableView {
-    return 1;
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 450;
 }
 
-- (NSInteger)tableView:(UITableView*)tableView numberOfRowsInSection:(NSInteger)section {
+- (NSInteger)numberOfSectionsInTableView:(UITableView*)tableView {
     return [self.posts count];
 }
 
-#pragma mark - WebView helper method
+- (NSInteger)tableView:(UITableView*)tableView numberOfRowsInSection:(NSInteger)section {
+    return 1;
+}
 
-- (void)showCaptionForCellAtIndexPath:(NSIndexPath *)indexPath {
-    
-    Post *post = [self.posts objectAtIndex:indexPath.row];
-    
-    NSMutableString *html = [NSMutableString stringWithString:kHtmlPre];
-    if (post.caption && post.caption.length > 0) {
-        [html appendString:post.caption];
-    }
-    [html appendString:kHtmlPost];
-    
-    UITableViewCell *cell = [self.iboTableView cellForRowAtIndexPath:indexPath];
-    UIWebView *webView = (UIWebView *)[cell viewWithTag:2];
-    
-    [webView loadHTMLString:[html description] baseURL:nil];
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 15;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    UIView *view = [UIView new];
+    [view setBackgroundColor:[UIColor clearColor]];
+    return view;
 }
 
 @end

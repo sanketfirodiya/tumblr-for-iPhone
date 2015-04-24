@@ -19,7 +19,9 @@
         
         for (id postDictionary in postsArray) {
             Post *post = [[Post alloc] initWithDictionary:postDictionary];
-            [posts addObject:post];
+            if (post) {
+                [posts addObject:post];
+            }
         }
     }
     

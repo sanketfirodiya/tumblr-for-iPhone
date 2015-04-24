@@ -13,7 +13,7 @@
 
 @property (nonatomic, strong) NSString *caption;
 @property (nonatomic, strong) Photo *photo;
-@property (nonatomic, strong) NSDate *timeStamp;
+@property (nonatomic) NSDate *timeStamp;
 @property (nonatomic, strong) NSMutableArray *tags;
 
 - (instancetype)initWithDictionary:(NSDictionary*)dictionary;
